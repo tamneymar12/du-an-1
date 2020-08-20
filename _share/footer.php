@@ -9,7 +9,7 @@ $web = queryExecute($getwebQuery,false);
 ?>
 		<div class="ps-home-partner">
 			<div class="ps-container">
-				<div class="owl-slider" data-owl-auto="true" data-owl-dots="false" data-owl-duration="1000" data-owl-gap="40" data-owl-item="6" data-owl-item-lg="6" data-owl-item-md="5" data-owl-item-sm="4" data-owl-item-xs="2" data-owl-loop="true" data-owl-mousedrag="on" data-owl-nav="false" data-owl-speed="5000"><a href="#"><img alt="" src="images/partner/1.png" /></a><a href="#"><img alt="" src="images/partner/2.png" /></a><a href="#"><img alt="" src="images/partner/3.png" /></a><a href="#"><img alt="" src="images/partner/4.png" /></a><a href="#"><img alt="" src="images/partner/5.png" /></a><a href="#"><img alt="" src="images/partner/6.png" /></a><a href="#"><img alt="" src="images/partner/7.png" /></a><a href="#"><img alt="" src="images/partner/8.png" /></a></div>
+				<div class="owl-slider" data-owl-auto="true" data-owl-dots="false" data-owl-duration="1000" data-owl-gap="40" data-owl-item="6" data-owl-item-lg="6" data-owl-item-md="5" data-owl-item-sm="4" data-owl-item-xs="2" data-owl-loop="true" data-owl-mousedrag="on" data-owl-nav="false" data-owl-speed="5000"><a href="#"><img alt="" src="<?=ADMIN_ASSET_URL?>images/partner/1.png" /></a><a href="#"><img alt="" src="<?=ADMIN_ASSET_URL?>images/partner/2.png" /></a><a href="#"><img alt="" src="<?=ADMIN_ASSET_URL?>images/partner/3.png" /></a><a href="#"><img alt="" src="<?=ADMIN_ASSET_URL?>images/partner/4.png" /></a><a href="#"><img alt="" src="<?=ADMIN_ASSET_URL?>images/partner/5.png" /></a><a href="#"><img alt="" src="<?=ADMIN_ASSET_URL?>images/partner/6.png" /></a><a href="#"><img alt="" src="<?=ADMIN_ASSET_URL?>images/partner/7.png" /></a><a href="#"><img alt="" src="<?=ADMIN_ASSET_URL?>images/partner/8.png" /></a></div>
 			</div>
 		</div>
 
@@ -32,13 +32,13 @@ $web = queryExecute($getwebQuery,false);
 			</div>
 		</div>
 
-		<div class="ps-footer bg--cover" data-background="images/background/parallax.jpg">
+		<div class="ps-footer bg--cover" data-background="<?=ADMIN_ASSET_URL?>images/background/parallax.jpg">
 			<div class="ps-footer__content">
 				<div class="ps-container">
 					<div class="row">
 						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
 							<aside class="ps-widget--footer ps-widget--info">
-								<header><a class="ps-logo" href="index.html"><img alt="" src="images/logo-white.png" /></a>
+								<header><a class="ps-logo" href="index.html"><img alt="" src="<?=ADMIN_ASSET_URL?>images/logo-white.png" /></a>
 
 									<h3 class="ps-widget__title">Address Office 1</h3>
 								</header>

@@ -1,6 +1,6 @@
 <?php
 #quy dinh constants
-define('BASE_URL' , 'http://localhost/Sport/');
+define('BASE_URL' , 'http://localhost/du-an-1/');
 define('ADMIN_URL', BASE_URL . 'admin/');
 
 

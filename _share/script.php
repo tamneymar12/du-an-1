@@ -11,7 +11,7 @@
 <script type="text/javascript" src="<?= THEM_URL ?>plugins/elevatezoom/jquery.elevatezoom.js"></script>
 <script type="text/javascript" src="<?= THEM_URL ?>plugins/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
 <script type="text/javascript" src="<?= THEM_URL ?>plugins/jquery-ui/jquery-ui.min.js"></script>
-<script type="text/javascript" src="<?= THEM_URL ?>https://maps.googleapis.com/maps/api/js?key=AIzaSyA-XBs8xkUbYA0ykeWNnxWRP8SMOSQHFW8&amp;region=GB"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-XBs8xkUbYA0ykeWNnxWRP8SMOSQHFW8&amp;region=GB"></script>
 <script type="text/javascript" src="<?= THEM_URL ?>plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
 <script type="text/javascript" src="<?= THEM_URL ?>plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
 <script type="text/javascript" src="<?= THEM_URL ?>plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
