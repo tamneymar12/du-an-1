@@ -1,6 +1,6 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="../../index.php" class="brand-link">
+    <a href="<?= BASE_URL?>" class="brand-link">
         <img src="<?= ADMIN_ASSET_URL ?>dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
         <span class="brand-text font-weight-light">SPORT SHOES</span>
     </a>
@@ -55,7 +55,7 @@
                 </li>
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
-                    <i class="fas fa-boxes"></i>
+                        <i class="nav-icon fas fa-boxes"></i>
                         <p>
                             Sản phẩm
                             <i class="fas fa-angle-left right"></i>
@@ -64,13 +64,14 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="<?= ADMIN_URL . 'products' ?>" class="nav-link">
-                               <i class="fas fa-boxes"></i>
+                                <i class="fa fa-list-ol nav-icon"></i>
                                 <p>Danh sách</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="<?= ADMIN_URL . 'products/add-form.php' ?>" class="nav-link">
-                            <i class="fas fa-angle-left right"></i>
+                                <i class="fas fa-angle-left right"></i>
+                                <i class="fa fa-list-ol nav-icon"></i>
                                 <p>Thêm sản phẩm</p>
                             </a>
                         </li>
@@ -79,7 +80,7 @@
 
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
-                    <i class="fas fa-newspaper"></i>
+                        <i class="nav-icon fas fa-newspaper"></i>
                         <p>
                             Quản lý tin
                             <i class="fas fa-angle-left right"></i>
@@ -104,7 +105,7 @@
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-users"></i>
                         <p>
-                            order
+                            Order
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
@@ -120,7 +121,7 @@
                 </li>
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
-                    <i class="fas fa-archway"></i>
+                        <i class="nav-icon fas fa-archway"></i>
                         <p>
                             Quản lý web
                             <i class="fas fa-angle-left right"></i>

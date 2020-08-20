@@ -63,16 +63,16 @@ $product = queryExecute($getproductsQuery,false);
 
 			<div class="navigation__column center">
 				<ul class="main-menu menu">
-					<li class="menu-item menu-item-has-children dropdown"><h2 style="margin-right: 20px;"><a href="index.php">Home</a></h2>
+					<li class="menu-item menu-item-has-children dropdown"><h2 style="margin-right: 20px;"><a href="<?=BASE_URL?>">Home</a></h2>
 
 
 					</li>
-					<li class="menu-item menu-item-has-children has-mega-menu"><h2 style="margin-right: 20px;"><a href="product-listing.php">Men</a></h2>
+					<li class="menu-item menu-item-has-children has-mega-menu"><h2 style="margin-right: 20px;"><a href="<?=BASE_URL?>product-listing.php">Men</a></h2>
 						<div class="mega-menu">
 
 					</li>
 					<li class="menu-item"><h2 style="margin-right: 20px;"><a href="product-listing2.php">Women</a></h2></li>
-					<li class="menu-item menu-item-has-children dropdown"><h2 style="margin-right: 20px;"><a href="blog-grid.php">News</a></h2>
+					<li class="menu-item menu-item-has-children dropdown"><h2 style="margin-right: 20px;"><a href="<?=BASE_URL?>blog-grid.php">News</a></h2>
 					</li>
 				</ul>
 			</div>
@@ -84,7 +84,7 @@ $product = queryExecute($getproductsQuery,false);
 
 					<div class="ps-cart__listing">
 
-						<div class="ps-cart__footer"><a class="ps-btn" href="cart.php">Check out</a></div>
+						<div class="ps-cart__footer"><a class="ps-btn" href="<?=BASE_URL?>cart.php">Check out</a></div>
 					</div>
 				</div>
 

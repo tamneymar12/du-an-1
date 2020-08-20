@@ -13,6 +13,9 @@ $products = queryExecute($getAllproductSql, true);
 $getAllWebSql = "select * from web_settings";
 $web = queryExecute($getAllWebSql, true);
 
+$getAllNewsQuery = "select * from news";
+$news = queryExecute($getAllNewsQuery, true);
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -87,13 +90,13 @@ $web = queryExecute($getAllWebSql, true);
                             <!-- small box -->
                             <div class="small-box bg-success">
                                 <div class="inner">
-                                    <h3><?= count($products); ?></h3>
+                                    <h3><?= count($news); ?></h3>
                                     <p>Quản trị tin</p>
                                 </div>
                                 <div class="icon">
                                 <i class="fas fa-newspaper"></i>
                                 </div>
-                                <a href="<?= ADMIN_URL . 'products' ?>" class="small-box-footer">Chi tiết <i class="fas fa-arrow-circle-right"></i></a>
+                                <a href="<?= ADMIN_URL . 'news' ?>" class="small-box-footer">Chi tiết <i class="fas fa-arrow-circle-right"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-6">
