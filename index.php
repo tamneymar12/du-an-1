@@ -50,7 +50,7 @@ $web = queryExecute($getwebQuery, false);
 		<div class="ps-banner">
 			<div class="rev_slider fullscreenbanner" id="home-banner">
 				<ul>
-					<li class="ps-banner" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-2972" data-rotate="0" data-slotamount="default" data-transition="random"><img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="5" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slider/3.jpg" />
+					<li class="ps-banner" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-2972" data-rotate="0" data-slotamount="default" data-transition="random"><img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="5" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="<?=ADMIN_ASSET_URL?>images/slider/3.jpg" />
 						<div class="tp-caption ps-banner__header" data-frames="[{&quot;delay&quot;:1000,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;x:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;x:50px;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-hoffset="['-60','15','15','15']" data-responsive_offset="on" data-type="text" data-voffset="['-150','-120','-150','-170']" data-width="['none','none','none','400']" data-x="left" data-y="['middle','middle','middle','middle']" id="layer-1">
 							<p>March 2002<br />
 								Nike SB Dunk Low Pro</p>
@@ -67,7 +67,7 @@ $web = queryExecute($getwebQuery, false);
 						</div>
 						<a class="tp-caption ps-btn" data-frames="[{&quot;delay&quot;:1500,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;x:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;x:50px;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-hoffset="['-60','15','15','15']" data-responsive_offset="on" data-textalign="['center','center','center','center']" data-type="text" data-voffset="['120','140','200','200']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" href="#" id="layer31">Purchase Now</a>
 					</li>
-					<li class="ps-banner ps-banner--white" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-100" data-rotate="0" data-slotamount="default" data-transition="random"><img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="5" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slider/2.jpg" />
+					<li class="ps-banner ps-banner--white" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-100" data-rotate="0" data-slotamount="default" data-transition="random"><img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="5" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="<?=ADMIN_ASSET_URL?>images/slider/2.jpg" />
 						<div class="tp-caption ps-banner__header" data-frames="[{&quot;delay&quot;:1000,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;x:50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;x:50px;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-hoffset="['-60','15','15','15']" data-responsive_offset="on" data-type="text" data-voffset="['-150','-120','-150','-170']" data-width="['none','none','none','400']" data-x="left" data-y="['middle','middle','middle','middle']" id="layer20">
 							<p>BEST ITEM<br />
 								THIS SUMMER</p>
@@ -194,11 +194,11 @@ $web = queryExecute($getwebQuery, false);
 			</div>
 		</div>
 
-		<div class="ps-home-testimonial bg--parallax pb-80" data-background="images/background/parallax.jpg">
+		<div class="ps-home-testimonial bg--parallax pb-80" data-background="<?=ADMIN_ASSET_URL?>images/background/parallax.jpg">
 			<div class="container">
 				<div class="owl-slider" data-owl-animate-in="fadeIn" data-owl-animate-out="fadeOut" data-owl-auto="true" data-owl-dots="true" data-owl-duration="1000" data-owl-gap="0" data-owl-item="1" data-owl-item-lg="1" data-owl-item-md="1" data-owl-item-sm="1" data-owl-item-xs="1" data-owl-loop="true" data-owl-mousedrag="on" data-owl-nav="false" data-owl-speed="5000">
 					<div class="ps-testimonial">
-						<div class="ps-testimonial__thumbnail"><img alt="" src="images/testimonial/1.jpg" /></div>
+						<div class="ps-testimonial__thumbnail"><img alt="" src="<?=ADMIN_ASSET_URL?>images/testimonial/1.jpg" /></div>
 
 						<header><select class="ps-rating">
 								<option value="1">1</option>
@@ -217,7 +217,7 @@ $web = queryExecute($getwebQuery, false);
 					</div>
 
 					<div class="ps-testimonial">
-						<div class="ps-testimonial__thumbnail"><img alt="" src="images/testimonial/2.jpg" /></div>
+						<div class="ps-testimonial__thumbnail"><img alt="" src="<?=ADMIN_ASSET_URL?>images/testimonial/2.jpg" /></div>
 
 						<header><select class="ps-rating">
 								<option value="1">1</option>
@@ -236,7 +236,7 @@ $web = queryExecute($getwebQuery, false);
 					</div>
 
 					<div class="ps-testimonial">
-						<div class="ps-testimonial__thumbnail"><img alt="" src="images/testimonial/3.jpg" /></div>
+						<div class="ps-testimonial__thumbnail"><img alt="" src="<?=ADMIN_ASSET_URL?>images/testimonial/3.jpg" /></div>
 
 						<header><select class="ps-rating">
 								<option value="1">1</option>
@@ -286,7 +286,7 @@ $web = queryExecute($getwebQuery, false);
 
 						<!-- <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
 							<div class="ps-post">
-								<div class="ps-post__thumbnail"><img alt="" src="images/blog/2.jpg" /></div>
+								<div class="ps-post__thumbnail"><img alt="" src="<?=ADMIN_ASSET_URL?>images/blog/2.jpg" /></div>
 
 								<div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Unpacking the Breaking2 Race Strategy</a>
 
@@ -300,7 +300,7 @@ $web = queryExecute($getwebQuery, false);
 
 						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
 							<div class="ps-post">
-								<div class="ps-post__thumbnail"><img alt="" src="images/blog/3.jpg" /></div>
+								<div class="ps-post__thumbnail"><img alt="" src="<?=ADMIN_ASSET_URL?>images/blog/3.jpg" /></div>
 
 								<div class="ps-post__content"><a class="ps-post__title" href="blog-detail.php">Nike&rsquo;s Latest Football Cleat Breaks the Mold</a>
 

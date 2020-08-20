@@ -13,12 +13,12 @@ $product = queryExecute($getproductsQuery,false);
 	<div class="header__top">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-6 col-md-8 col-sm-6 col-xs-12 ">
+				<div class="col-md-8 col-6">
 					<p><?= $web['address']?></p>
 
 				</div>
 
-				<div class="col-lg-6 col-md-4 col-sm-6 col-xs-12 ">
+				<div class="col-md-4 col-6 ">
 					<?php if ($loggedInUser) : ?>
 						<li style="padding-top:10px;padding-bottom:10px; list-style: none;"   role="presentation" class="dropdown">
 							<a  id="drop2" href="#" class="dropdown-toggle text-primary btn btn-info" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
@@ -34,7 +34,14 @@ $product = queryExecute($getproductsQuery,false);
 							</ul>
 						</li>
 					<?php else : ?>
-						<li><a href="<?= LOGIN_URL . 'login.php' ?>" class="nav-link text-primary login-color">Login</a></li>
+						<li class="list-group-item">
+							<a
+								href="<?= LOGIN_URL . 'login.php' ?>"
+								class="nav-link text-primary login-color"
+							>
+								Login
+							</a>
+						</li>
 					<?php endif ?>
 
 
